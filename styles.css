@@ -1,0 +1,71 @@
+body{
+    margin:0 10%;
+    font-family: 'Cardo', serif;
+    font-size:  14px;
+    font-weight:400;
+
+}
+nav{
+    display:fixed;
+    background-color: #379683;
+    font-size:16px;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    font-size:26px;
+}
+h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.colorBox,.fontBox,.textStylesBox{
+    border: 2px solid gray;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color1,.color2,.color3,.color4,.color5{
+    min-height: 150px;
+    max-height: 200px;
+    margin: 10px auto;
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    overflow:hidden;
+}
+
+.color1{
+    background-color: #05386B;
+    color: #fff;
+}
+
+.color2{
+    background-color: #379683;
+}
+
+.color3{
+    background-color: #5CDB95;
+}
+
+.color4{
+    background-color: #8EE4AF;
+}
+
+.color5{
+    background-color: #EDF5E1;
+}
+.Oswald{
+    font-family: "Oswald" ; 
+}
+
+.Cardo{
+    font-family: "Cardo";
+}
